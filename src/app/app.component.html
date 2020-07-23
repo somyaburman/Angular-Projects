@@ -1,0 +1,14 @@
+{{name}}
+<br/>
+<input type='text' [(ngModel)]='inputval'/>
+<br/>
+<button (click)='onClick($event)'>Add Task</button>
+<br/>
+<br/>
+<h3>My Task :</h3>
+<table>
+
+  <tr *ngFor='let d of collecteddata' >
+    <td>{{d}}</td>
+  </tr>
+</table>
