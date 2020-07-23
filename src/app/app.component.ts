@@ -6,7 +6,7 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'To-Do List in Angular ' + VERSION.major;
+  name = 'To-Do List ';
    inputval;
    collecteddata=[];
 
