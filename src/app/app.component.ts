@@ -7,6 +7,7 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'To-Do List ';
+  index=0;
    inputval;
    collecteddata=[];
 

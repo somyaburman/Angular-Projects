@@ -1,14 +1,19 @@
-{{name}}
+<div class="full">
+<div class="head">{{name}}</div>
+
+
 <br/>
-<input type='text' [(ngModel)]='inputval'/>
-<br/>
-<button (click)='onClick($event)'>Add Task</button>
+<input type='text' [(ngModel)]='inputval' placeholder="Enter Task"/>
 <br/>
 <br/>
-<h3>My Task :</h3>
-<table>
+<button class='btncls' (click)='onClick($event)'>Add Task</button>
+<br/>
+<br/>
+<div class="head">My Task :</div>
+</div>
+<table class='btncls'>
 
   <tr *ngFor='let d of collecteddata' >
-    <td>{{d}}</td>
+    <td> {{d}}</td>
   </tr>
 </table>

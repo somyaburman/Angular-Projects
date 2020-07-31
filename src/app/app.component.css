@@ -1,3 +1,23 @@
 p {
   font-family: Lato;
 }
+.full{
+  text-align: center;
+  background: rgba(255, 255, 128, 0.541);
+
+}
+.head{
+  background: pink;
+  text-align: center;
+  font-family: cursive;
+  
+
+}
+
+.btncls{
+  background: rgb(217, 181, 253);
+  border-radius: 5px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif
+
+}
